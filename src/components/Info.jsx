@@ -7,7 +7,7 @@ function Info() {
     // const isDark=colorMode==='dark';
     const [isNotSmallerScreen]=useMediaQuery("(min-width:600px)")
   return (
-    <HStack mt={isNotSmallerScreen?"10vh":"4vh"} justifyContent="center" mb="10vh">
+    <HStack mt={isNotSmallerScreen?"10vh":"10vh"} justifyContent="center" mb="10vh">
       <a href='https://www.instagram.com/harshith._.kalki/' >
       <Icon as={FaInstagram} boxSize="50"/>
       </a>
