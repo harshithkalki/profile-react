@@ -19,7 +19,7 @@ function ProfileImg() {
         </Circle>
         <Box ml={isNotSmallerScreen?"20vw":"6"} mt="50px" w={isNotSmallerScreen?"35vw":"80vw"}>
         <Heading fontSize="5xl">Hi , I'm</Heading>
-        <Heading mt={isNotSmallerScreen?"5px":"5px"}>Harshith kalki 👋🏾 👨‍💻</Heading>
+        <Heading mt={isNotSmallerScreen?"5px":"5px"}><span style={{color:"rgb(100, 181, 246)"}}>H</span>arshith <span style={{color:"rgb(100, 181, 246)"}}>K</span>alki 👋🏾 👨‍💻</Heading>
         <Text mt={isNotSmallerScreen?"10px":"10px"} fontSize={isNotSmallerScreen?"2xl":"2xl"}>MERN Stack Devoloper</Text>
         <Text fontSize="medium" mt="10px" mb="10vh">
         Passionate MERN Stack engineer with hands-on experience in developing scalable websites / applications using a wide range of front-end and back-end skills like HTML, CSS, JavaScript, React js, Node js, Express js, MongoDB etc. Developed 10+ websites from scratch. Looking to further enhance HTML5, CSS3, JS skills as the future full stack developer.
