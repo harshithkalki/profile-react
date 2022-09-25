@@ -12,12 +12,13 @@ function Header() {
         <Heading >PortFolio</Heading>
             <Spacer></Spacer>
             <IconButton ml={2} icon={isDark?<FaSun />:<FaMoon />} isRound='true' onClick={toggleColorMode}></IconButton>
-            <IconButton ml={2} icon={<FaGithub />} isRound='true'></IconButton>
+            <a href="https://github.com/harshithkalki">
+            <IconButton ml={2} icon={<FaGithub />} isRound='true' ></IconButton>
+            </a> 
+            <a href='https://www.linkedin.com/in/harshith-reddy-chiluka-39a635225'>
             <IconButton ml={2} icon={<FaLinkedin />} isRound='true'></IconButton>
+            </a>
         </Flex>
-        <box>
-           
-        </box>
     </VStack>
   )
 }
