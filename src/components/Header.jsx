@@ -9,7 +9,7 @@ function Header() {
   return (
     <VStack padding={5} >
         <Flex w="100%">
-        <Heading >PortFolio</Heading>
+        <Heading ><span style={{color:"rgb(100, 181, 246)"}}>P</span>ort<span style={{color:"rgb(100, 181, 246)"}}>F</span>olio</Heading>
             <Spacer></Spacer>
             <IconButton ml={2} icon={isDark?<FaSun />:<FaMoon />} isRound='true' onClick={toggleColorMode}></IconButton>
             <a href="https://github.com/harshithkalki">
