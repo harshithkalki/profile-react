@@ -13,6 +13,7 @@ function Skills() {
     <ul style={{marginLeft:"2vw"}}>
         <li>Java</li>
         <li>JavaScript</li>
+        <li>typeScript</li>
         <li>c</li>
         <li>c++</li>
     </ul>
